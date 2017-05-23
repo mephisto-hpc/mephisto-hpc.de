@@ -427,10 +427,12 @@ div.comment-list {
 }
 
 #help-wrapper {
-	background: url('img/help.gif') no-repeat left top;
+	background:
+	    url('img/help-left.gif') no-repeat left top,
+	    url('img/help-right.gif') no-repeat right top,
+	    url('img/help-expand.gif') repeat-x left top;
 	height: 39px;
-	margin: -8px 0 0 auto;
-	width: 290px;
+	margin: 0 0 0 70%;
 }
 #help {
 	color: #666;
